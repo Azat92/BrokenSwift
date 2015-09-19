@@ -1,0 +1,73 @@
+PODS:
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - Crashlytics (3.1.0)
+  - Fabric (1.2.8):
+    - Fabric/Base (= 1.2.8)
+  - Fabric/Base (1.2.8)
+  - iOS-blur (0.0.5)
+  - MagicalRecord (2.3.0)
+  - Mantle (2.0.2):
+    - Mantle/extobjc (= 2.0.2)
+  - Mantle/extobjc (2.0.2)
+  - MBProgressHUD (0.9.1)
+  - MYHelpers (1.0.1)
+  - pop (1.0.7)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - SDWebImage (3.7.3):
+    - SDWebImage/Core (= 3.7.3)
+  - SDWebImage/Core (3.7.3)
+  - SwiftTryCatch (0.0.1)
+
+DEPENDENCIES:
+  - BlocksKit
+  - Crashlytics
+  - Fabric
+  - iOS-blur
+  - MagicalRecord
+  - Mantle
+  - MBProgressHUD
+  - MYHelpers (from `https://raw.githubusercontent.com/AlexandrGraschenkov/MYHelpers/master/MYHelpers.podspec.json`)
+  - pop
+  - ReactiveCocoa
+  - SDWebImage
+  - SwiftTryCatch
+
+EXTERNAL SOURCES:
+  MYHelpers:
+    :podspec: https://raw.githubusercontent.com/AlexandrGraschenkov/MYHelpers/master/MYHelpers.podspec.json
+
+SPEC CHECKSUMS:
+  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  Crashlytics: 93e2f86363d53c002c6366a9d87e41f2eaee87c3
+  Fabric: a9eabe53915e9f1db55a84dd2838737928675878
+  iOS-blur: 8e4a4a2202b881e940869eca0c957808cbdf0a19
+  MagicalRecord: 89eb7d7ead39fb37f01c3d010665ee94d17f8dba
+  Mantle: 967fd31ea0220890b2e76589198996b534bb3fb1
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+  MYHelpers: 217c1a98608cdca493550bc60e549c6d10489394
+  pop: 628ffc631644601567ee8bfaaaea493ebd7d0923
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
+  SwiftTryCatch: fb6d2b34abe48efd69578dac919293a44f95b481
+
+COCOAPODS: 0.38.2
